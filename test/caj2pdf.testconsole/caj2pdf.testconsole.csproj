@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.15.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\caj2pdf.invoker\caj2pdf.invoker.csproj" />
+    <ProjectReference Include="..\..\src\caj2pdf.runtime.ubuntu20.x64\caj2pdf.runtime.ubuntu20.x64.csproj" />
+    <ProjectReference Include="..\..\src\caj2pdf.runtime.windows.x64\caj2pdf.runtime.windows.x64.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="files/*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

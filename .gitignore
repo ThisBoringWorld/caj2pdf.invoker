@@ -362,4 +362,5 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 
-caj2pdf.testconsole/
+**/caj2pdf.testconsole/files/*.caj
+**/caj2pdf.testconsole/files/*.kdh

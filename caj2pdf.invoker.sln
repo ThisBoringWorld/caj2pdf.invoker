@@ -17,10 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "caj2pdf.runtime.windows.x64
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{70B0D565-1384-4D58-9492-D95B26AC682A}"
 	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
 		.gitmodules = .gitmodules
 		Directory.Build.props = Directory.Build.props
-		LICENSE = LICENSE
 		init-gitmodules.sh = init-gitmodules.sh
+		LICENSE = LICENSE
 		README.md = README.md
 	EndProjectSection
 EndProject
