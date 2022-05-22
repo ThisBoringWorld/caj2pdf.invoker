@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>caj2pdf</RootNamespace>
+    <Description>caj2pdf的简易C#调用封装，包装了启动转换进程的代码</Description>
+  </PropertyGroup>
+</Project>

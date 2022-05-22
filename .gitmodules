@@ -1,0 +1,6 @@
+[submodule "src/caj2pdf"]
+	path = src/caj2pdf
+	url = https://github.com/caj2pdf/caj2pdf
+[submodule "src/PyPDF2"]
+	path = src/PyPDF2
+	url = https://github.com/py-pdf/PyPDF2

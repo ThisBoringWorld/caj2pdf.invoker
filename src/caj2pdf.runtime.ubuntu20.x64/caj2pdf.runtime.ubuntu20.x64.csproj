@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+
+    <IsPackable>true</IsPackable>
+
+    <BuildOutputTargetFolder>tools</BuildOutputTargetFolder>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="binaryfiles\**" />
+    <Content Include="binaryfiles\**\*" Link="caj2pdf\linux\x64\%(RecursiveDir)%(FileName)%(Extension)">
+      <PackagePath>contentFiles\any\any\caj2pdf\linux\x64</PackagePath>
+      <PackageCopyToOutput>true</PackageCopyToOutput>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+
+    <Content Include="..\caj2pdf\*.py;..\caj2pdf\caj2pdf;..\caj2pdf\LICENSE;..\caj2pdf\README.md;" Link="caj2pdf\linux\x64\%(RecursiveDir)%(FileName)%(Extension)">
+      <PackagePath>contentFiles\any\any\caj2pdf\linux\x64</PackagePath>
+      <PackageCopyToOutput>true</PackageCopyToOutput>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+
+    <Content Include="..\PyPDF2\PyPDF2\**\*" Link="caj2pdf\linux\x64\PyPDF2\%(RecursiveDir)%(FileName)%(Extension)">
+      <PackagePath>contentFiles\any\any\caj2pdf\linux\x64\PyPDF2</PackagePath>
+      <PackageCopyToOutput>true</PackageCopyToOutput>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

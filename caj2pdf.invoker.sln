@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{12767F22-FBBB-432B-BEA9-D17A5759F455}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{09CDE124-67F1-4E66-816F-E15CEF6E311A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "caj2pdf.invoker", "src\caj2pdf.invoker\caj2pdf.invoker.csproj", "{D2221A7C-815E-461E-A799-F1BEF6524A3B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "caj2pdf.runtime.ubuntu20.x64", "src\caj2pdf.runtime.ubuntu20.x64\caj2pdf.runtime.ubuntu20.x64.csproj", "{FC381113-034E-41F6-9FA6-65794445676F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "caj2pdf.testconsole", "test\caj2pdf.testconsole\caj2pdf.testconsole.csproj", "{FC2C9AF6-B3BD-4257-9327-7719BDAEBD41}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "caj2pdf.runtime.windows.x64", "src\caj2pdf.runtime.windows.x64\caj2pdf.runtime.windows.x64.csproj", "{6D563F01-9108-4096-BE75-22DEA07CBFC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{70B0D565-1384-4D58-9492-D95B26AC682A}"
+	ProjectSection(SolutionItems) = preProject
+		.gitmodules = .gitmodules
+		Directory.Build.props = Directory.Build.props
+		LICENSE = LICENSE
+		init-gitmodules.sh = init-gitmodules.sh
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2221A7C-815E-461E-A799-F1BEF6524A3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2221A7C-815E-461E-A799-F1BEF6524A3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2221A7C-815E-461E-A799-F1BEF6524A3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2221A7C-815E-461E-A799-F1BEF6524A3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC381113-034E-41F6-9FA6-65794445676F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC381113-034E-41F6-9FA6-65794445676F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC381113-034E-41F6-9FA6-65794445676F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC381113-034E-41F6-9FA6-65794445676F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC2C9AF6-B3BD-4257-9327-7719BDAEBD41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC2C9AF6-B3BD-4257-9327-7719BDAEBD41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC2C9AF6-B3BD-4257-9327-7719BDAEBD41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC2C9AF6-B3BD-4257-9327-7719BDAEBD41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D563F01-9108-4096-BE75-22DEA07CBFC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D563F01-9108-4096-BE75-22DEA07CBFC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D563F01-9108-4096-BE75-22DEA07CBFC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D563F01-9108-4096-BE75-22DEA07CBFC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D2221A7C-815E-461E-A799-F1BEF6524A3B} = {12767F22-FBBB-432B-BEA9-D17A5759F455}
+		{FC381113-034E-41F6-9FA6-65794445676F} = {12767F22-FBBB-432B-BEA9-D17A5759F455}
+		{FC2C9AF6-B3BD-4257-9327-7719BDAEBD41} = {09CDE124-67F1-4E66-816F-E15CEF6E311A}
+		{6D563F01-9108-4096-BE75-22DEA07CBFC5} = {12767F22-FBBB-432B-BEA9-D17A5759F455}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0ECE7FCE-813B-485D-BDC3-41B48C28471E}
+	EndGlobalSection
+EndGlobal
